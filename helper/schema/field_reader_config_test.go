@@ -7,10 +7,10 @@ import (
 	"testing"
 
 	"github.com/hashicorp/hil/ast"
-	"github.com/hashicorp/terraform/config"
-	"github.com/hashicorp/terraform/config/hcl2shim"
-	"github.com/hashicorp/terraform/helper/hashcode"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/config"
+	"github.com/DeviaVir/terraform/config/hcl2shim"
+	"github.com/DeviaVir/terraform/helper/hashcode"
+	"github.com/DeviaVir/terraform/terraform"
 )
 
 func TestConfigFieldReader_impl(t *testing.T) {

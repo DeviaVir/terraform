@@ -8,15 +8,15 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/command/format"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/plans/planfile"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/statemgr"
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/backend"
+	"github.com/DeviaVir/terraform/command/format"
+	"github.com/DeviaVir/terraform/plans"
+	"github.com/DeviaVir/terraform/plans/planfile"
+	"github.com/DeviaVir/terraform/states"
+	"github.com/DeviaVir/terraform/states/statemgr"
+	"github.com/DeviaVir/terraform/terraform"
+	"github.com/DeviaVir/terraform/tfdiags"
 )
 
 func (b *Local) opPlan(

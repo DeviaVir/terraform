@@ -3,10 +3,10 @@ package artifactory
 import (
 	"context"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/state"
-	"github.com/hashicorp/terraform/state/remote"
+	"github.com/DeviaVir/terraform/backend"
+	"github.com/DeviaVir/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/state"
+	"github.com/DeviaVir/terraform/state/remote"
 	artifactory "github.com/lusis/go-artifactory/src/artifactory.v401"
 )
 

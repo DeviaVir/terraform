@@ -3,8 +3,8 @@ package terraform
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/config"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/config"
 )
 
 // NodeProvisioner represents a provider that has no associated operations.

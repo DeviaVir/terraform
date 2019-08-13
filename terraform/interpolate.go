@@ -10,10 +10,10 @@ import (
 
 	"github.com/hashicorp/hil"
 	"github.com/hashicorp/hil/ast"
-	"github.com/hashicorp/terraform/config"
-	"github.com/hashicorp/terraform/config/hcl2shim"
-	"github.com/hashicorp/terraform/config/module"
-	"github.com/hashicorp/terraform/flatmap"
+	"github.com/DeviaVir/terraform/config"
+	"github.com/DeviaVir/terraform/config/hcl2shim"
+	"github.com/DeviaVir/terraform/config/module"
+	"github.com/DeviaVir/terraform/flatmap"
 )
 
 // Interpolater is the structure responsible for determining the values

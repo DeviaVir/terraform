@@ -11,10 +11,10 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/hashicorp/terraform/addrs"
+	"github.com/DeviaVir/terraform/addrs"
 
-	"github.com/hashicorp/terraform/config"
-	"github.com/hashicorp/terraform/config/hcl2shim"
+	"github.com/DeviaVir/terraform/config"
+	"github.com/DeviaVir/terraform/config/hcl2shim"
 )
 
 func TestStateValidate(t *testing.T) {

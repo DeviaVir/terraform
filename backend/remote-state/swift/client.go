@@ -14,8 +14,8 @@ import (
 	"github.com/gophercloud/gophercloud/openstack/objectstorage/v1/containers"
 	"github.com/gophercloud/gophercloud/openstack/objectstorage/v1/objects"
 	"github.com/gophercloud/gophercloud/pagination"
-	"github.com/hashicorp/terraform/state"
-	"github.com/hashicorp/terraform/state/remote"
+	"github.com/DeviaVir/terraform/state"
+	"github.com/DeviaVir/terraform/state/remote"
 )
 
 const (

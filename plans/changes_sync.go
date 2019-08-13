@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/states"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/states"
 )
 
 // ChangesSync is a wrapper around a Changes that provides a concurrency-safe

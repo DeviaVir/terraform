@@ -6,13 +6,13 @@ import (
 	"log"
 
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/command/clistate"
-	"github.com/hashicorp/terraform/configs/configload"
-	"github.com/hashicorp/terraform/plans/planfile"
-	"github.com/hashicorp/terraform/states/statemgr"
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/backend"
+	"github.com/DeviaVir/terraform/command/clistate"
+	"github.com/DeviaVir/terraform/configs/configload"
+	"github.com/DeviaVir/terraform/plans/planfile"
+	"github.com/DeviaVir/terraform/states/statemgr"
+	"github.com/DeviaVir/terraform/terraform"
+	"github.com/DeviaVir/terraform/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 

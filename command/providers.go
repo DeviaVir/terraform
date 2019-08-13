@@ -5,10 +5,10 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/moduledeps"
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/configs"
+	"github.com/DeviaVir/terraform/moduledeps"
+	"github.com/DeviaVir/terraform/terraform"
+	"github.com/DeviaVir/terraform/tfdiags"
 	"github.com/xlab/treeprint"
 )
 

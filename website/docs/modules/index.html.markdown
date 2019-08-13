@@ -94,7 +94,7 @@ don't need to do any extra work to follow the standard structure.
   be treated as markdown. There should be a description of the module and
   what it should be used for. If you want to include an example for how this
   module can be used in combination with other resources, put it in an [examples
-  directory like this](https://github.com/hashicorp/terraform-aws-consul/tree/master/examples).
+  directory like this](https://github.com/DeviaVir/terraform-aws-consul/tree/master/examples).
   Consider including a visual diagram depicting the infrastructure resources
   the module may create and their relationship.
   

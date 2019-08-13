@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/dag"
+	"github.com/DeviaVir/terraform/dag"
 )
 
 func TestExpandTransform_impl(t *testing.T) {

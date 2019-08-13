@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	version "github.com/hashicorp/go-version"
-	"github.com/hashicorp/terraform/registry/response"
+	"github.com/DeviaVir/terraform/registry/response"
 )
 
 const anyVersion = ">=0.0.0"

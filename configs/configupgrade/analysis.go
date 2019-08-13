@@ -10,11 +10,11 @@ import (
 	hcl1parser "github.com/hashicorp/hcl/hcl/parser"
 	hcl1token "github.com/hashicorp/hcl/hcl/token"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/moduledeps"
-	"github.com/hashicorp/terraform/plugin/discovery"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/configs/configschema"
+	"github.com/DeviaVir/terraform/moduledeps"
+	"github.com/DeviaVir/terraform/plugin/discovery"
+	"github.com/DeviaVir/terraform/terraform"
 )
 
 // analysis is a container for the various different information gathered

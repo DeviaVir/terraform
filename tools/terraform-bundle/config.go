@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 
 	"github.com/hashicorp/hcl"
-	"github.com/hashicorp/terraform/plugin/discovery"
+	"github.com/DeviaVir/terraform/plugin/discovery"
 )
 
 var zeroTwelve = discovery.ConstraintStr(">= 0.12.0").MustParse()

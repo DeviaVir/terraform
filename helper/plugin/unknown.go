@@ -3,7 +3,7 @@ package plugin
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform/configs/configschema"
+	"github.com/DeviaVir/terraform/configs/configschema"
 	"github.com/zclconf/go-cty/cty"
 )
 

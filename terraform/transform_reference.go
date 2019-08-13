@@ -5,12 +5,12 @@ import (
 	"log"
 
 	"github.com/hashicorp/hcl2/hcl"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/lang"
+	"github.com/DeviaVir/terraform/configs/configschema"
+	"github.com/DeviaVir/terraform/lang"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/config"
-	"github.com/hashicorp/terraform/dag"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/config"
+	"github.com/DeviaVir/terraform/dag"
 )
 
 // GraphNodeReferenceable must be implemented by any node that represents

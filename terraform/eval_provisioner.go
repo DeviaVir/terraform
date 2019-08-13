@@ -3,8 +3,8 @@ package terraform
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/provisioners"
+	"github.com/DeviaVir/terraform/configs/configschema"
+	"github.com/DeviaVir/terraform/provisioners"
 )
 
 // EvalInitProvisioner is an EvalNode implementation that initializes a provisioner

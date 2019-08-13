@@ -14,12 +14,12 @@ import (
 	"github.com/davecgh/go-spew/spew"
 	"github.com/zclconf/go-cty/cty"
 
-	backendinit "github.com/hashicorp/terraform/backend/init"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/helper/logging"
-	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/provisioners"
-	"github.com/hashicorp/terraform/terraform"
+	backendinit "github.com/DeviaVir/terraform/backend/init"
+	"github.com/DeviaVir/terraform/configs/configschema"
+	"github.com/DeviaVir/terraform/helper/logging"
+	"github.com/DeviaVir/terraform/providers"
+	"github.com/DeviaVir/terraform/provisioners"
+	"github.com/DeviaVir/terraform/terraform"
 )
 
 func TestUpgradeValid(t *testing.T) {

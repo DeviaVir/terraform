@@ -3,10 +3,10 @@ package terraform
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/tfdiags"
 
-	"github.com/hashicorp/terraform/plugin/discovery"
-	"github.com/hashicorp/terraform/providers"
+	"github.com/DeviaVir/terraform/plugin/discovery"
+	"github.com/DeviaVir/terraform/providers"
 )
 
 // ResourceProvider is an interface that must be implemented by any

@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/plans"
+	"github.com/DeviaVir/terraform/tfdiags"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/dag"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/backend"
+	"github.com/DeviaVir/terraform/dag"
+	"github.com/DeviaVir/terraform/terraform"
 )
 
 // GraphCommand is a Command implementation that takes a Terraform

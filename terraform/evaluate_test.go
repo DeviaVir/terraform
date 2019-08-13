@@ -6,9 +6,9 @@ import (
 	"github.com/davecgh/go-spew/spew"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/configs"
+	"github.com/DeviaVir/terraform/tfdiags"
 )
 
 func TestEvaluatorGetTerraformAttr(t *testing.T) {

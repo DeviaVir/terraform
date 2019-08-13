@@ -1,9 +1,9 @@
 package terraform
 
 import (
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/providers"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/configs"
+	"github.com/DeviaVir/terraform/providers"
 )
 
 // ProviderEvalTree returns the evaluation tree for initializing and

@@ -3,8 +3,8 @@ package terraform
 import (
 	"log"
 
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/states"
+	"github.com/DeviaVir/terraform/configs"
+	"github.com/DeviaVir/terraform/states"
 )
 
 // RemovedModuleTransformer implements GraphTransformer to add nodes indicating

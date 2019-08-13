@@ -7,8 +7,8 @@ import (
 	"github.com/gophercloud/gophercloud"
 	"github.com/gophercloud/gophercloud/openstack/identity/v3/endpoints"
 	"github.com/gophercloud/gophercloud/openstack/identity/v3/services"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/helper/validation"
+	"github.com/DeviaVir/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/helper/validation"
 )
 
 func dataSourceIdentityEndpointV3() *schema.Resource {

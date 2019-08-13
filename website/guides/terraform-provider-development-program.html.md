@@ -79,7 +79,7 @@ the same structure and coding patterns helps expedite the review and release cyc
 * How-to build a provider [video](https://www.youtube.com/watch?v=2BvpqmFpchI)
 * Sample provider developed by [partner](http://container-solutions.com/write-terraform-provider-part-1/)
 * Example providers for reference: [AWS](https://github.com/terraform-providers/terraform-provider-aws), [OPC](https://github.com/terraform-providers/terraform-provider-opc)
-* Contributing to Terraform [guidelines](https://github.com/hashicorp/terraform/blob/master/.github/CONTRIBUTING.md)
+* Contributing to Terraform [guidelines](https://github.com/DeviaVir/terraform/blob/master/.github/CONTRIBUTING.md)
 * Gitter HashiCorp-Terraform [room](https://gitter.im/hashicorp-terraform/Lobby).
 
 ### 3. Development & Test
@@ -110,7 +110,7 @@ with `go fmt`.
 The provider code should include an acceptance test suite with tests for each
 individual resource that holistically tests its behavior.
 The Writing Acceptance Tests section in the
-[Contributing to Terraform](https://github.com/hashicorp/terraform/blob/master/.github/CONTRIBUTING.md)
+[Contributing to Terraform](https://github.com/DeviaVir/terraform/blob/master/.github/CONTRIBUTING.md)
 document explains how to approach these. It is recommended to randomize the
 names of the tests as opposed to using unique static names, as that permits us
 to parallelize the test execution.

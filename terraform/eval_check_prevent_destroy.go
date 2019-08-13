@@ -3,13 +3,13 @@ package terraform
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform/plans"
+	"github.com/DeviaVir/terraform/plans"
 
 	"github.com/hashicorp/hcl2/hcl"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/configs"
+	"github.com/DeviaVir/terraform/tfdiags"
 )
 
 // EvalPreventDestroy is an EvalNode implementation that returns an

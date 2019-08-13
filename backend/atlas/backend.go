@@ -7,14 +7,14 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/state"
-	"github.com/hashicorp/terraform/state/remote"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/backend"
+	"github.com/DeviaVir/terraform/configs/configschema"
+	"github.com/DeviaVir/terraform/state"
+	"github.com/DeviaVir/terraform/state/remote"
+	"github.com/DeviaVir/terraform/terraform"
 	"github.com/mitchellh/cli"
 	"github.com/mitchellh/colorstring"
 )

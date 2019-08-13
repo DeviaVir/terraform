@@ -15,12 +15,12 @@ import (
 	plugin "github.com/hashicorp/go-plugin"
 	"github.com/kardianos/osext"
 
-	terraformProvider "github.com/hashicorp/terraform/builtin/providers/terraform"
-	tfplugin "github.com/hashicorp/terraform/plugin"
-	"github.com/hashicorp/terraform/plugin/discovery"
-	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/provisioners"
-	"github.com/hashicorp/terraform/terraform"
+	terraformProvider "github.com/DeviaVir/terraform/builtin/providers/terraform"
+	tfplugin "github.com/DeviaVir/terraform/plugin"
+	"github.com/DeviaVir/terraform/plugin/discovery"
+	"github.com/DeviaVir/terraform/providers"
+	"github.com/DeviaVir/terraform/provisioners"
+	"github.com/DeviaVir/terraform/terraform"
 )
 
 // multiVersionProviderResolver is an implementation of

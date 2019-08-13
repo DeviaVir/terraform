@@ -8,9 +8,9 @@ import (
 	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/attributestags"
 	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/extradhcpopts"
 	"github.com/gophercloud/gophercloud/openstack/networking/v2/ports"
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/helper/validation"
+	"github.com/DeviaVir/terraform/helper/resource"
+	"github.com/DeviaVir/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/helper/validation"
 )
 
 func resourceNetworkingPortV2() *schema.Resource {

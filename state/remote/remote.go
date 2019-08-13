@@ -3,7 +3,7 @@ package remote
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform/state"
+	"github.com/DeviaVir/terraform/state"
 )
 
 // Client is the interface that must be implemented for a remote state

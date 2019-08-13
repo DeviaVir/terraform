@@ -8,8 +8,8 @@ import (
 	"testing"
 
 	"github.com/hashicorp/hil/ast"
-	"github.com/hashicorp/terraform/config"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/config"
+	"github.com/DeviaVir/terraform/terraform"
 )
 
 func testConfig(

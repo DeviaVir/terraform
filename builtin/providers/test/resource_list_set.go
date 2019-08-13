@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/helper/schema"
 )
 
 func testResourceListSet() *schema.Resource {

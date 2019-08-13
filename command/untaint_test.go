@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/states"
+	"github.com/DeviaVir/terraform/terraform"
 	"github.com/mitchellh/cli"
 )
 

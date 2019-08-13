@@ -7,9 +7,9 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/statemgr"
-	"github.com/hashicorp/terraform/version"
+	"github.com/DeviaVir/terraform/states"
+	"github.com/DeviaVir/terraform/states/statemgr"
+	"github.com/DeviaVir/terraform/version"
 )
 
 func TestState_impl(t *testing.T) {

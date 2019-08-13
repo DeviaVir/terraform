@@ -8,7 +8,7 @@ import (
 	"github.com/gophercloud/gophercloud"
 	"github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/attachinterfaces"
 
-	"github.com/hashicorp/terraform/helper/resource"
+	"github.com/DeviaVir/terraform/helper/resource"
 )
 
 func computeInterfaceAttachV2AttachFunc(

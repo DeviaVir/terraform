@@ -7,9 +7,9 @@ import (
 	hcl2syntax "github.com/hashicorp/hcl2/hcl/hclsyntax"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/lang"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/lang"
+	"github.com/DeviaVir/terraform/tfdiags"
 )
 
 // InferExpressionType attempts to determine a result type for the given

@@ -1,15 +1,15 @@
 package pg
 
 // Create the test database: createdb terraform_backend_pg_test
-// TF_ACC=1 GO111MODULE=on go test -v -mod=vendor -timeout=2m -parallel=4 github.com/hashicorp/terraform/backend/remote-state/pg
+// TF_ACC=1 GO111MODULE=on go test -v -mod=vendor -timeout=2m -parallel=4 github.com/DeviaVir/terraform/backend/remote-state/pg
 
 import (
 	"database/sql"
 	"fmt"
 	"testing"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/state/remote"
+	"github.com/DeviaVir/terraform/backend"
+	"github.com/DeviaVir/terraform/state/remote"
 )
 
 func TestRemoteClient_impl(t *testing.T) {

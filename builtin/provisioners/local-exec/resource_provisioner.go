@@ -9,8 +9,8 @@ import (
 	"runtime"
 
 	"github.com/armon/circbuf"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/terraform"
 	"github.com/mitchellh/go-linereader"
 )
 

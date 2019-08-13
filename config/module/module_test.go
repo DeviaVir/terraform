@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hashicorp/terraform/config"
-	"github.com/hashicorp/terraform/svchost/disco"
+	"github.com/DeviaVir/terraform/config"
+	"github.com/DeviaVir/terraform/svchost/disco"
 )
 
 func init() {

@@ -1,7 +1,7 @@
 VERSION?="0.3.32"
 TEST?=./...
 GOFMT_FILES?=$$(find . -name '*.go' | grep -v vendor)
-WEBSITE_REPO=github.com/hashicorp/terraform-website
+WEBSITE_REPO=github.com/DeviaVir/terraform-website
 
 default: test
 
@@ -25,7 +25,7 @@ quickdev: generate
 # Shorthand for building and installing just one plugin for local testing.
 # Run as (for example): make plugin-dev PLUGIN=provider-aws
 plugin-dev: generate
-	go install github.com/hashicorp/terraform/builtin/bins/$(PLUGIN)
+	go install github.com/DeviaVir/terraform/builtin/bins/$(PLUGIN)
 	mv $(GOPATH)/bin/$(PLUGIN) $(GOPATH)/bin/terraform-$(PLUGIN)
 
 # test runs the unit tests

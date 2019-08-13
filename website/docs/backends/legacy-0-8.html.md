@@ -90,7 +90,7 @@ be able to work with the environment. Everyone must upgrade.
 If the migration fails for any reason: your states look different, your
 plan isn't what you expect, you're getting errors, etc. then you may roll back.
 
-After rolling back, please [report an issue](https://github.com/hashicorp/terraform)
+After rolling back, please [report an issue](https://github.com/DeviaVir/terraform)
 so that we may resolve anything that may have gone wrong for you.
 
 To roll back, follow the steps below using Terraform 0.8.x or earlier:

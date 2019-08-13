@@ -3,9 +3,9 @@ package terraform
 import (
 	"log"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/dag"
-	"github.com/hashicorp/terraform/lang"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/dag"
+	"github.com/DeviaVir/terraform/lang"
 )
 
 // NodeApplyableResource represents a resource that is "applyable":

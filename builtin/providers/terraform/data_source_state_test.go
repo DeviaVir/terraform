@@ -1,11 +1,11 @@
 package terraform
 
 import (
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/tfdiags"
 	"testing"
 
 	"github.com/apparentlymart/go-dump/dump"
-	"github.com/hashicorp/terraform/backend"
+	"github.com/DeviaVir/terraform/backend"
 	"github.com/zclconf/go-cty/cty"
 )
 

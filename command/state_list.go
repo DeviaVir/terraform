@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/states"
+	"github.com/DeviaVir/terraform/tfdiags"
 	"github.com/mitchellh/cli"
 )
 

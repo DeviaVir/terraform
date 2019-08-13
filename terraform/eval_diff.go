@@ -9,13 +9,13 @@ import (
 	"github.com/hashicorp/hcl2/hcl"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/plans/objchange"
-	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/configs"
+	"github.com/DeviaVir/terraform/plans"
+	"github.com/DeviaVir/terraform/plans/objchange"
+	"github.com/DeviaVir/terraform/providers"
+	"github.com/DeviaVir/terraform/states"
+	"github.com/DeviaVir/terraform/tfdiags"
 )
 
 // EvalCheckPlannedChange is an EvalNode implementation that produces errors

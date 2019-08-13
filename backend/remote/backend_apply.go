@@ -8,9 +8,9 @@ import (
 	"log"
 
 	tfe "github.com/hashicorp/go-tfe"
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/backend"
+	"github.com/DeviaVir/terraform/terraform"
+	"github.com/DeviaVir/terraform/tfdiags"
 )
 
 func (b *Remote) opApply(stopCtx, cancelCtx context.Context, op *backend.Operation, w *tfe.Workspace) (*tfe.Run, error) {

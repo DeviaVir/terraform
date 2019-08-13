@@ -1,7 +1,7 @@
 package terraform
 
 import (
-	"github.com/hashicorp/terraform/configs/configschema"
+	"github.com/DeviaVir/terraform/configs/configschema"
 )
 
 func simpleTestSchemas() *Schemas {

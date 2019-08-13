@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/dag"
-	"github.com/hashicorp/terraform/states"
+	"github.com/DeviaVir/terraform/configs"
+	"github.com/DeviaVir/terraform/dag"
+	"github.com/DeviaVir/terraform/states"
 )
 
 // GraphNodeDestroyerCBD must be implemented by nodes that might be

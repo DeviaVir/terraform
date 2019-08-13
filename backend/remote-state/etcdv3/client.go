@@ -11,8 +11,8 @@ import (
 	etcdv3 "github.com/coreos/etcd/clientv3"
 	etcdv3sync "github.com/coreos/etcd/clientv3/concurrency"
 	"github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/terraform/state"
-	"github.com/hashicorp/terraform/state/remote"
+	"github.com/DeviaVir/terraform/state"
+	"github.com/DeviaVir/terraform/state/remote"
 )
 
 const (

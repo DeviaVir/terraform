@@ -1,8 +1,8 @@
 package customdiff
 
 import (
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/terraform"
 )
 
 func testProvider(s map[string]*schema.Schema, cd schema.CustomizeDiffFunc) terraform.ResourceProvider {

@@ -18,9 +18,9 @@ import (
 	"time"
 
 	cleanhttp "github.com/hashicorp/go-cleanhttp"
-	"github.com/hashicorp/terraform/httpclient"
-	"github.com/hashicorp/terraform/svchost"
-	"github.com/hashicorp/terraform/svchost/auth"
+	"github.com/DeviaVir/terraform/httpclient"
+	"github.com/DeviaVir/terraform/svchost"
+	"github.com/DeviaVir/terraform/svchost/auth"
 )
 
 const (

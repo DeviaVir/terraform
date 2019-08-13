@@ -16,11 +16,11 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/helper/acctest"
-	"github.com/hashicorp/terraform/state/remote"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/backend"
+	"github.com/DeviaVir/terraform/configs"
+	"github.com/DeviaVir/terraform/helper/acctest"
+	"github.com/DeviaVir/terraform/state/remote"
+	"github.com/DeviaVir/terraform/terraform"
 )
 
 func testStateClient(t *testing.T, c map[string]string) remote.Client {

@@ -16,18 +16,18 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/backend/local"
-	"github.com/hashicorp/terraform/command/format"
-	"github.com/hashicorp/terraform/configs/configload"
-	"github.com/hashicorp/terraform/helper/experiment"
-	"github.com/hashicorp/terraform/helper/wrappedstreams"
-	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/provisioners"
-	"github.com/hashicorp/terraform/svchost/disco"
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/backend"
+	"github.com/DeviaVir/terraform/backend/local"
+	"github.com/DeviaVir/terraform/command/format"
+	"github.com/DeviaVir/terraform/configs/configload"
+	"github.com/DeviaVir/terraform/helper/experiment"
+	"github.com/DeviaVir/terraform/helper/wrappedstreams"
+	"github.com/DeviaVir/terraform/providers"
+	"github.com/DeviaVir/terraform/provisioners"
+	"github.com/DeviaVir/terraform/svchost/disco"
+	"github.com/DeviaVir/terraform/terraform"
+	"github.com/DeviaVir/terraform/tfdiags"
 	"github.com/mitchellh/cli"
 	"github.com/mitchellh/colorstring"
 )
@@ -538,7 +538,7 @@ func (m *Meta) outputShadowError(err error, output bool) bool {
 			"background. These features cannot affect real state and never touch\n"+
 			"real infrastructure. If the features work properly, you see nothing.\n"+
 			"If the features fail, this message appears.\n\n"+
-			"You can report an issue at: https://github.com/hashicorp/terraform/issues\n\n"+
+			"You can report an issue at: https://github.com/DeviaVir/terraform/issues\n\n"+
 			"The failure was written to %q. Please\n"+
 			"double check this file contains no sensitive information and report\n"+
 			"it with your issue.\n\n"+

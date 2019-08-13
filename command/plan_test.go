@@ -14,14 +14,14 @@ import (
 	"github.com/mitchellh/cli"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/addrs"
-	backendinit "github.com/hashicorp/terraform/backend/init"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/helper/copy"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/addrs"
+	backendinit "github.com/DeviaVir/terraform/backend/init"
+	"github.com/DeviaVir/terraform/configs/configschema"
+	"github.com/DeviaVir/terraform/helper/copy"
+	"github.com/DeviaVir/terraform/plans"
+	"github.com/DeviaVir/terraform/providers"
+	"github.com/DeviaVir/terraform/states"
+	"github.com/DeviaVir/terraform/terraform"
 )
 
 func TestPlan(t *testing.T) {

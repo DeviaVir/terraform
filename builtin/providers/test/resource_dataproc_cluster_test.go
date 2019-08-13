@@ -6,9 +6,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/helper/validation"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/helper/validation"
+	"github.com/DeviaVir/terraform/terraform"
 )
 
 var dataprocClusterSchema = map[string]*schema.Schema{

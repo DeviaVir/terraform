@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/terraform"
 )
 
 // InmemState is an in-memory state storage.

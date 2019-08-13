@@ -9,10 +9,10 @@ import (
 	"github.com/hashicorp/hcl2/hcl"
 	"github.com/hashicorp/hcl2/hcl/hclsyntax"
 	hcljson "github.com/hashicorp/hcl2/hcl/json"
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/backend"
+	"github.com/DeviaVir/terraform/configs"
+	"github.com/DeviaVir/terraform/terraform"
+	"github.com/DeviaVir/terraform/tfdiags"
 )
 
 // VarEnvPrefix is the prefix for environment variables that represent values

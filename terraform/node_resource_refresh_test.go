@@ -7,7 +7,7 @@ import (
 	"github.com/davecgh/go-spew/spew"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/addrs"
+	"github.com/DeviaVir/terraform/addrs"
 )
 
 func TestNodeRefreshableManagedResourceDynamicExpand_scaleOut(t *testing.T) {

@@ -5,10 +5,10 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/states"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/plans"
+	"github.com/DeviaVir/terraform/providers"
+	"github.com/DeviaVir/terraform/states"
 )
 
 func TestNilHook_impl(t *testing.T) {

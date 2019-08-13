@@ -13,7 +13,7 @@ require 'pathname'
 module APIs
   module Terraform
     def self.path
-      @path ||= Pathname(`go list -f '{{.Dir}}' github.com/hashicorp/terraform`.chomp)
+      @path ||= Pathname(`go list -f '{{.Dir}}' github.com/DeviaVir/terraform`.chomp)
     end
 
     def self.called?(api, op)

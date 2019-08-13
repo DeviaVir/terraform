@@ -10,9 +10,9 @@ import (
 	"github.com/hashicorp/hcl2/hcldec"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/configs"
+	"github.com/DeviaVir/terraform/tfdiags"
 )
 
 // Input asks for input to fill variables and provider configurations.

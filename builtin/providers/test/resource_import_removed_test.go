@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/helper/resource"
+	"github.com/DeviaVir/terraform/helper/resource"
 )
 
 func TestResourceImportRemoved(t *testing.T) {
@@ -23,7 +23,7 @@ resource "test_resource_import_removed" "foo" {
 				ResourceName: "test_resource_import_removed.foo",
 
 				// This is attempting to guard against regressions of:
-				// https://github.com/hashicorp/terraform/issues/20985
+				// https://github.com/DeviaVir/terraform/issues/20985
 				//
 				// Removed attributes are generally not populated during Create,
 				// Update, Read, or Import by provider code but due to our

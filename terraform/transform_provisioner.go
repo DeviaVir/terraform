@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/hashicorp/terraform/addrs"
+	"github.com/DeviaVir/terraform/addrs"
 
 	"github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/terraform/dag"
+	"github.com/DeviaVir/terraform/dag"
 )
 
 // GraphNodeProvisioner is an interface that nodes that can be a provisioner

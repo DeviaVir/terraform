@@ -11,11 +11,11 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/plans/objchange"
-	"github.com/hashicorp/terraform/states"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/configs/configschema"
+	"github.com/DeviaVir/terraform/plans"
+	"github.com/DeviaVir/terraform/plans/objchange"
+	"github.com/DeviaVir/terraform/states"
 )
 
 // ResourceChange returns a string representation of a change to a particular

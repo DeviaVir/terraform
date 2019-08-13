@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/hashicorp/terraform/e2e"
+	"github.com/DeviaVir/terraform/e2e"
 )
 
 // The tests in this file are for the "primary workflow", which includes

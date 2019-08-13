@@ -9,9 +9,9 @@ import (
 
 	"github.com/hashicorp/hcl2/hcl"
 	"github.com/hashicorp/hcl2/hcl/hclsyntax"
-	"github.com/hashicorp/terraform/config/hcl2shim"
-	"github.com/hashicorp/terraform/lang"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/config/hcl2shim"
+	"github.com/DeviaVir/terraform/lang"
+	"github.com/DeviaVir/terraform/tfdiags"
 )
 
 // ErrSessionExit is a special error result that should be checked for

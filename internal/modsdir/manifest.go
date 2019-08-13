@@ -11,7 +11,7 @@ import (
 
 	version "github.com/hashicorp/go-version"
 
-	"github.com/hashicorp/terraform/addrs"
+	"github.com/DeviaVir/terraform/addrs"
 )
 
 // Record represents some metadata about an installed module, as part

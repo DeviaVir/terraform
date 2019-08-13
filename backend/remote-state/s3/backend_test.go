@@ -10,10 +10,10 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
 	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/config/hcl2shim"
-	"github.com/hashicorp/terraform/state/remote"
-	"github.com/hashicorp/terraform/states"
+	"github.com/DeviaVir/terraform/backend"
+	"github.com/DeviaVir/terraform/config/hcl2shim"
+	"github.com/DeviaVir/terraform/state/remote"
+	"github.com/DeviaVir/terraform/states"
 )
 
 // verify that we are doing ACC tests or the S3 tests specifically

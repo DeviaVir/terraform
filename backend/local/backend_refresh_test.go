@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hashicorp/terraform/providers"
+	"github.com/DeviaVir/terraform/providers"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/internal/initwd"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/backend"
+	"github.com/DeviaVir/terraform/configs/configschema"
+	"github.com/DeviaVir/terraform/internal/initwd"
+	"github.com/DeviaVir/terraform/terraform"
 	"github.com/zclconf/go-cty/cty"
 )
 

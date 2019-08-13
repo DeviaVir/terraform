@@ -8,8 +8,8 @@ import (
 
 	"github.com/gophercloud/gophercloud"
 	"github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/secgroups"
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/helper/resource"
+	"github.com/DeviaVir/terraform/helper/schema"
 )
 
 func resourceComputeSecGroupV2() *schema.Resource {

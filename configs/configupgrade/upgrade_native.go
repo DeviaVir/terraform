@@ -19,10 +19,10 @@ import (
 	hcl2 "github.com/hashicorp/hcl2/hcl"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/addrs"
-	backendinit "github.com/hashicorp/terraform/backend/init"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/addrs"
+	backendinit "github.com/DeviaVir/terraform/backend/init"
+	"github.com/DeviaVir/terraform/configs/configschema"
+	"github.com/DeviaVir/terraform/tfdiags"
 )
 
 type upgradeFileResult struct {

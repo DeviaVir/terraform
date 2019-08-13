@@ -13,9 +13,9 @@ import (
 
 	"github.com/hashicorp/errwrap"
 	multierror "github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/terraform/helper/slowmessage"
-	"github.com/hashicorp/terraform/state"
-	"github.com/hashicorp/terraform/states/statemgr"
+	"github.com/DeviaVir/terraform/helper/slowmessage"
+	"github.com/DeviaVir/terraform/state"
+	"github.com/DeviaVir/terraform/states/statemgr"
 	"github.com/mitchellh/cli"
 	"github.com/mitchellh/colorstring"
 )

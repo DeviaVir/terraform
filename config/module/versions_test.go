@@ -3,7 +3,7 @@ package module
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform/registry/response"
+	"github.com/DeviaVir/terraform/registry/response"
 )
 
 func TestNewestModuleVersion(t *testing.T) {

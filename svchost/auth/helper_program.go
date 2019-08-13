@@ -7,7 +7,7 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"github.com/hashicorp/terraform/svchost"
+	"github.com/DeviaVir/terraform/svchost"
 )
 
 type helperProgramCredentialsSource struct {

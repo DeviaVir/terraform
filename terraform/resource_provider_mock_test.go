@@ -3,8 +3,8 @@ package terraform
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/providers"
+	"github.com/DeviaVir/terraform/configs/configschema"
+	"github.com/DeviaVir/terraform/providers"
 	"github.com/zclconf/go-cty/cty"
 )
 

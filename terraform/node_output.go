@@ -3,10 +3,10 @@ package terraform
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/dag"
-	"github.com/hashicorp/terraform/lang"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/configs"
+	"github.com/DeviaVir/terraform/dag"
+	"github.com/DeviaVir/terraform/lang"
 )
 
 // NodeApplyableOutput represents an output that is "applyable":

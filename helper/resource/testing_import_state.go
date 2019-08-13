@@ -10,10 +10,10 @@ import (
 	"github.com/hashicorp/hcl2/hcl"
 	"github.com/hashicorp/hcl2/hcl/hclsyntax"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/states"
+	"github.com/DeviaVir/terraform/terraform"
 )
 
 // testStepImportState runs an imort state test step

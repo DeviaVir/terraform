@@ -5,8 +5,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/hashicorp/terraform/communicator"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/communicator"
+	"github.com/DeviaVir/terraform/terraform"
 )
 
 const (

@@ -5,7 +5,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/hashicorp/terraform/communicator/remote"
+	"github.com/DeviaVir/terraform/communicator/remote"
 )
 
 const (

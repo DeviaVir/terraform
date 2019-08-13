@@ -9,13 +9,13 @@ import (
 	"github.com/hashicorp/hcl2/hcl"
 	"github.com/hashicorp/hcl2/hcldec"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/config/hcl2shim"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/state"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/statemgr"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/config/hcl2shim"
+	"github.com/DeviaVir/terraform/configs"
+	"github.com/DeviaVir/terraform/state"
+	"github.com/DeviaVir/terraform/states"
+	"github.com/DeviaVir/terraform/states/statemgr"
+	"github.com/DeviaVir/terraform/tfdiags"
 )
 
 // TestBackendConfig validates and configures the backend with the

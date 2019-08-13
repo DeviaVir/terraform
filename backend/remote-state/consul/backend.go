@@ -7,8 +7,8 @@ import (
 	"time"
 
 	consulapi "github.com/hashicorp/consul/api"
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/backend"
+	"github.com/DeviaVir/terraform/helper/schema"
 )
 
 // New creates a new backend for Consul remote state.

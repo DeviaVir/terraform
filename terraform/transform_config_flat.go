@@ -1,8 +1,8 @@
 package terraform
 
 import (
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/dag"
+	"github.com/DeviaVir/terraform/configs"
+	"github.com/DeviaVir/terraform/dag"
 )
 
 // FlatConfigTransformer is a GraphTransformer that adds the configuration

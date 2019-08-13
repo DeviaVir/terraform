@@ -7,7 +7,7 @@ import (
 
 	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/security/groups"
 
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/helper/schema"
 )
 
 func dataSourceNetworkingSecGroupV2() *schema.Resource {

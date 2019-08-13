@@ -1,12 +1,12 @@
 package initwd
 
 import (
-	"github.com/hashicorp/terraform/registry"
+	"github.com/DeviaVir/terraform/registry"
 	"testing"
 
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/configs/configload"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/configs"
+	"github.com/DeviaVir/terraform/configs/configload"
+	"github.com/DeviaVir/terraform/tfdiags"
 )
 
 // LoadConfigForTests is a convenience wrapper around configload.NewLoaderForTests,

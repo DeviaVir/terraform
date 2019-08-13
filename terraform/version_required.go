@@ -4,11 +4,11 @@ import (
 	"fmt"
 
 	"github.com/hashicorp/hcl2/hcl"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/tfdiags"
 
-	"github.com/hashicorp/terraform/configs"
+	"github.com/DeviaVir/terraform/configs"
 
-	tfversion "github.com/hashicorp/terraform/version"
+	tfversion "github.com/DeviaVir/terraform/version"
 )
 
 // CheckCoreVersionRequirements visits each of the modules in the given

@@ -3,7 +3,7 @@ package auth
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform/svchost"
+	"github.com/DeviaVir/terraform/svchost"
 )
 
 func TestStaticCredentialsSource(t *testing.T) {

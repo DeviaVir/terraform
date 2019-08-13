@@ -12,13 +12,13 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/hashicorp/hil/ast"
-	"github.com/hashicorp/terraform/config"
-	"github.com/hashicorp/terraform/config/hcl2shim"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/helper/hashcode"
-	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/config"
+	"github.com/DeviaVir/terraform/config/hcl2shim"
+	"github.com/DeviaVir/terraform/configs/configschema"
+	"github.com/DeviaVir/terraform/helper/hashcode"
+	"github.com/DeviaVir/terraform/providers"
+	"github.com/DeviaVir/terraform/terraform"
+	"github.com/DeviaVir/terraform/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 
@@ -2310,7 +2310,7 @@ func TestShimSchemaMap_Diff(t *testing.T) {
 		},
 
 		{
-			Name: "https://github.com/hashicorp/terraform/issues/824",
+			Name: "https://github.com/DeviaVir/terraform/issues/824",
 			Schema: map[string]*Schema{
 				"block_device": &Schema{
 					Type:     TypeSet,

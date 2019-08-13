@@ -10,13 +10,13 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/helper/logging"
-	"github.com/hashicorp/terraform/internal/initwd"
-	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/configs/configschema"
+	"github.com/DeviaVir/terraform/helper/logging"
+	"github.com/DeviaVir/terraform/internal/initwd"
+	"github.com/DeviaVir/terraform/providers"
+	"github.com/DeviaVir/terraform/states"
+	"github.com/DeviaVir/terraform/terraform"
 )
 
 func TestMain(m *testing.M) {

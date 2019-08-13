@@ -9,10 +9,10 @@ import (
 
 	"github.com/mitchellh/cli"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/helper/copy"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/helper/copy"
+	"github.com/DeviaVir/terraform/states"
+	"github.com/DeviaVir/terraform/terraform"
 )
 
 func TestStateMv(t *testing.T) {

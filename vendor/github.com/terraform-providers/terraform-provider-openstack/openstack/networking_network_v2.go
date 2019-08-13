@@ -8,8 +8,8 @@ import (
 	"github.com/gophercloud/gophercloud/openstack/networking/v2/networks"
 	"github.com/gophercloud/gophercloud/pagination"
 
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/helper/resource"
+	"github.com/DeviaVir/terraform/helper/schema"
 )
 
 // networkingNetworkV2ID retrieves network ID by the provided name.

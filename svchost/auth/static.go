@@ -1,7 +1,7 @@
 package auth
 
 import (
-	"github.com/hashicorp/terraform/svchost"
+	"github.com/DeviaVir/terraform/svchost"
 )
 
 // StaticCredentialsSource is a credentials source that retrieves credentials

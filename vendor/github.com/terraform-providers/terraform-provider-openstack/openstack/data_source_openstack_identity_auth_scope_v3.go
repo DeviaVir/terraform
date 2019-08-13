@@ -3,7 +3,7 @@ package openstack
 import (
 	"log"
 
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/helper/schema"
 
 	"github.com/gophercloud/gophercloud/openstack/identity/v3/tokens"
 )

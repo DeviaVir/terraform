@@ -12,8 +12,8 @@ import (
 	"github.com/gophercloud/gophercloud/openstack"
 	"github.com/gophercloud/gophercloud/openstack/objectstorage/v1/swauth"
 	"github.com/gophercloud/utils/openstack/clientconfig"
-	"github.com/hashicorp/terraform/helper/pathorcontents"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/helper/pathorcontents"
+	"github.com/DeviaVir/terraform/terraform"
 )
 
 type Config struct {

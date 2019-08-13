@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/state/remote"
+	"github.com/DeviaVir/terraform/backend"
+	"github.com/DeviaVir/terraform/state/remote"
 )
 
 func TestRemoteClient_impl(t *testing.T) {

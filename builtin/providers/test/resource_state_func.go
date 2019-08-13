@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/hashicorp/terraform/helper/hashcode"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/helper/hashcode"
+	"github.com/DeviaVir/terraform/helper/schema"
 )
 
 func testResourceStateFunc() *schema.Resource {

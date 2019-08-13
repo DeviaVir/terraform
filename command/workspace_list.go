@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"strings"
 
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/tfdiags"
 	"github.com/posener/complete"
 )
 

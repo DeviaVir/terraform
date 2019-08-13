@@ -7,7 +7,7 @@ import (
 	"github.com/gophercloud/gophercloud"
 	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/fwaas/policies"
 	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/fwaas/rules"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/helper/schema"
 )
 
 func resourceFWRuleV1() *schema.Resource {

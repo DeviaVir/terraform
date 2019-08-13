@@ -7,11 +7,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/plugin/discovery"
-	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/configs/configschema"
+	"github.com/DeviaVir/terraform/plugin/discovery"
+	"github.com/DeviaVir/terraform/providers"
+	"github.com/DeviaVir/terraform/terraform"
+	"github.com/DeviaVir/terraform/tfdiags"
 )
 
 func TestMultiVersionProviderResolver(t *testing.T) {

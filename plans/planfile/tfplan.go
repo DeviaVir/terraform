@@ -7,12 +7,12 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/plans/internal/planproto"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/tfdiags"
-	"github.com/hashicorp/terraform/version"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/plans"
+	"github.com/DeviaVir/terraform/plans/internal/planproto"
+	"github.com/DeviaVir/terraform/states"
+	"github.com/DeviaVir/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/version"
 )
 
 const tfplanFormatVersion = 3

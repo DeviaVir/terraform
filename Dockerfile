@@ -16,7 +16,7 @@ RUN apk add --update git bash openssh
 ENV TF_DEV=true
 ENV TF_RELEASE=1
 
-WORKDIR $GOPATH/src/github.com/hashicorp/terraform
+WORKDIR $GOPATH/src/github.com/DeviaVir/terraform
 COPY . .
 RUN /bin/bash scripts/build.sh
 

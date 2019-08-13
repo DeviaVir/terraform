@@ -3,10 +3,10 @@ package resource
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/states"
+	"github.com/DeviaVir/terraform/terraform"
 	"github.com/zclconf/go-cty/cty"
 )
 

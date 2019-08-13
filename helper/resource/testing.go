@@ -21,16 +21,16 @@ import (
 	"github.com/hashicorp/logutils"
 	"github.com/mitchellh/colorstring"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/command/format"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/configs/configload"
-	"github.com/hashicorp/terraform/helper/logging"
-	"github.com/hashicorp/terraform/internal/initwd"
-	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/command/format"
+	"github.com/DeviaVir/terraform/configs"
+	"github.com/DeviaVir/terraform/configs/configload"
+	"github.com/DeviaVir/terraform/helper/logging"
+	"github.com/DeviaVir/terraform/internal/initwd"
+	"github.com/DeviaVir/terraform/providers"
+	"github.com/DeviaVir/terraform/states"
+	"github.com/DeviaVir/terraform/terraform"
+	"github.com/DeviaVir/terraform/tfdiags"
 )
 
 // flagSweep is a flag available when running tests on the command line. It

@@ -5,7 +5,7 @@ package auth
 import (
 	"net/http"
 
-	"github.com/hashicorp/terraform/svchost"
+	"github.com/DeviaVir/terraform/svchost"
 )
 
 // Credentials is a list of CredentialsSource objects that can be tried in

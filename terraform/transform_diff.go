@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/hashicorp/terraform/dag"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/dag"
+	"github.com/DeviaVir/terraform/plans"
+	"github.com/DeviaVir/terraform/states"
+	"github.com/DeviaVir/terraform/tfdiags"
 )
 
 // DiffTransformer is a GraphTransformer that adds graph nodes representing

@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"github.com/gophercloud/gophercloud/openstack/identity/v3/projects"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/helper/schema"
 )
 
 func resourceIdentityProjectV3() *schema.Resource {

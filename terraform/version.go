@@ -1,7 +1,7 @@
 package terraform
 
 import (
-	"github.com/hashicorp/terraform/version"
+	"github.com/DeviaVir/terraform/version"
 )
 
 // TODO: update providers to use the version package directly

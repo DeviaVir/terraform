@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hashicorp/terraform/registry/regsrc"
+	"github.com/DeviaVir/terraform/registry/regsrc"
 )
 
 func TestParseRegistrySource(t *testing.T) {

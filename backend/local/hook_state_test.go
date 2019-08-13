@@ -3,9 +3,9 @@ package local
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform/state"
-	"github.com/hashicorp/terraform/states/statemgr"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/state"
+	"github.com/DeviaVir/terraform/states/statemgr"
+	"github.com/DeviaVir/terraform/terraform"
 )
 
 func TestStateHook_impl(t *testing.T) {

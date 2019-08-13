@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/helper/copy"
+	"github.com/DeviaVir/terraform/helper/copy"
 	"github.com/mitchellh/cli"
 )
 

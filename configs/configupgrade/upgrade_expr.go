@@ -18,9 +18,9 @@ import (
 	"github.com/hashicorp/hil"
 	hilast "github.com/hashicorp/hil/ast"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/configs/configschema"
+	"github.com/DeviaVir/terraform/tfdiags"
 )
 
 func upgradeExpr(val interface{}, filename string, interp bool, an *analysis) ([]byte, tfdiags.Diagnostics) {

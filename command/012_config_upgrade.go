@@ -9,9 +9,9 @@ import (
 	"strings"
 
 	"github.com/hashicorp/hcl2/hcl"
-	"github.com/hashicorp/terraform/configs/configupgrade"
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/configs/configupgrade"
+	"github.com/DeviaVir/terraform/terraform"
+	"github.com/DeviaVir/terraform/tfdiags"
 )
 
 // ZeroTwelveUpgradeCommand is a Command implementation that can upgrade

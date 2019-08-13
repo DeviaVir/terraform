@@ -3,7 +3,7 @@ package terraform
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform/config"
+	"github.com/DeviaVir/terraform/config"
 )
 
 // varNameForVar returns the VarName value for an interpolated variable.

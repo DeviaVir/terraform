@@ -1,7 +1,7 @@
 package customdiff
 
 import (
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/helper/schema"
 )
 
 // ResourceConditionFunc is a function type that makes a boolean decision based

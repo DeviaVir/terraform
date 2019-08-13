@@ -3,7 +3,7 @@ package openstack
 import (
 	"github.com/gophercloud/gophercloud"
 	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/layer3/addressscopes"
-	"github.com/hashicorp/terraform/helper/resource"
+	"github.com/DeviaVir/terraform/helper/resource"
 )
 
 func resourceNetworkingAddressScopeV2StateRefreshFunc(client *gophercloud.ServiceClient, id string) resource.StateRefreshFunc {

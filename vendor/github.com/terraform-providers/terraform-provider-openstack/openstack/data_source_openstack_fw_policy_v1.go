@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/fwaas/policies"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/helper/schema"
 )
 
 func dataSourceFWPolicyV1() *schema.Resource {

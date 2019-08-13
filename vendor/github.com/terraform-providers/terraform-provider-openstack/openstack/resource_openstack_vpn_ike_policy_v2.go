@@ -7,8 +7,8 @@ import (
 
 	"github.com/gophercloud/gophercloud"
 	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/vpnaas/ikepolicies"
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/helper/resource"
+	"github.com/DeviaVir/terraform/helper/schema"
 )
 
 func resourceIKEPolicyV2() *schema.Resource {

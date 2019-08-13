@@ -10,10 +10,10 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/hashicorp/terraform/helper/schema"
-	proto "github.com/hashicorp/terraform/internal/tfplugin5"
-	"github.com/hashicorp/terraform/plugin/convert"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/helper/schema"
+	proto "github.com/DeviaVir/terraform/internal/tfplugin5"
+	"github.com/DeviaVir/terraform/plugin/convert"
+	"github.com/DeviaVir/terraform/terraform"
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/msgpack"
 )

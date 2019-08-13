@@ -12,11 +12,11 @@ import (
 
 	"github.com/go-test/deep"
 	version "github.com/hashicorp/go-version"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/configs/configload"
-	"github.com/hashicorp/terraform/helper/logging"
-	"github.com/hashicorp/terraform/registry"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/configs"
+	"github.com/DeviaVir/terraform/configs/configload"
+	"github.com/DeviaVir/terraform/helper/logging"
+	"github.com/DeviaVir/terraform/registry"
+	"github.com/DeviaVir/terraform/tfdiags"
 )
 
 func TestMain(m *testing.M) {
@@ -376,7 +376,7 @@ func TestLoaderInstallModules_goGetter(t *testing.T) {
 		{
 			Name:        "Download",
 			ModuleAddr:  "acctest_child_a",
-			PackageAddr: "github.com/hashicorp/terraform-aws-module-installer-acctest?ref=v0.0.1", // intentionally excludes the subdir because we're downloading the whole repo here
+			PackageAddr: "github.com/DeviaVir/terraform-aws-module-installer-acctest?ref=v0.0.1", // intentionally excludes the subdir because we're downloading the whole repo here
 		},
 		{
 			Name:       "Install",
@@ -396,7 +396,7 @@ func TestLoaderInstallModules_goGetter(t *testing.T) {
 		{
 			Name:        "Download",
 			ModuleAddr:  "acctest_child_b",
-			PackageAddr: "github.com/hashicorp/terraform-aws-module-installer-acctest?ref=v0.0.1", // intentionally excludes the subdir because we're downloading the whole package here
+			PackageAddr: "github.com/DeviaVir/terraform-aws-module-installer-acctest?ref=v0.0.1", // intentionally excludes the subdir because we're downloading the whole package here
 		},
 		{
 			Name:       "Install",
@@ -408,7 +408,7 @@ func TestLoaderInstallModules_goGetter(t *testing.T) {
 		{
 			Name:        "Download",
 			ModuleAddr:  "acctest_root",
-			PackageAddr: "github.com/hashicorp/terraform-aws-module-installer-acctest?ref=v0.0.1",
+			PackageAddr: "github.com/DeviaVir/terraform-aws-module-installer-acctest?ref=v0.0.1",
 		},
 		{
 			Name:       "Install",

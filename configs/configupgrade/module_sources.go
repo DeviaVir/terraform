@@ -8,8 +8,8 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/configs"
+	"github.com/DeviaVir/terraform/tfdiags"
 
 	"github.com/hashicorp/hcl2/hcl"
 	hcl2syntax "github.com/hashicorp/hcl2/hcl/hclsyntax"

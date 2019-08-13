@@ -26,14 +26,14 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/config"
-	"github.com/hashicorp/terraform/config/hcl2shim"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/tfdiags"
-	tfversion "github.com/hashicorp/terraform/version"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/config"
+	"github.com/DeviaVir/terraform/config/hcl2shim"
+	"github.com/DeviaVir/terraform/configs"
+	"github.com/DeviaVir/terraform/configs/configschema"
+	"github.com/DeviaVir/terraform/plans"
+	"github.com/DeviaVir/terraform/tfdiags"
+	tfversion "github.com/DeviaVir/terraform/version"
 )
 
 const (

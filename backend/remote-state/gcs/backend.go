@@ -10,10 +10,10 @@ import (
 	"strings"
 
 	"cloud.google.com/go/storage"
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/helper/pathorcontents"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/httpclient"
+	"github.com/DeviaVir/terraform/backend"
+	"github.com/DeviaVir/terraform/helper/pathorcontents"
+	"github.com/DeviaVir/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/httpclient"
 	"golang.org/x/oauth2/jwt"
 	"google.golang.org/api/option"
 )

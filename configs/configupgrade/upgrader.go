@@ -1,8 +1,8 @@
 package configupgrade
 
 import (
-	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/providers"
+	"github.com/DeviaVir/terraform/terraform"
 )
 
 // Upgrader is the main type in this package, containing all of the

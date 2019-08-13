@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/terraform/states/statefile"
-	"github.com/hashicorp/terraform/states/statemgr"
+	"github.com/DeviaVir/terraform/states/statefile"
+	"github.com/DeviaVir/terraform/states/statemgr"
 	"github.com/mitchellh/cli"
 )
 

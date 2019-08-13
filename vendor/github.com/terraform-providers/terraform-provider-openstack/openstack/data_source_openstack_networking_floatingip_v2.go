@@ -7,7 +7,7 @@ import (
 
 	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/layer3/floatingips"
 
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/helper/schema"
 )
 
 func dataSourceNetworkingFloatingIPV2() *schema.Resource {

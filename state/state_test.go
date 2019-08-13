@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hashicorp/terraform/helper/logging"
+	"github.com/DeviaVir/terraform/helper/logging"
 )
 
 func TestMain(m *testing.M) {

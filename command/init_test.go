@@ -16,16 +16,16 @@ import (
 	"github.com/mitchellh/cli"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/backend/local"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/helper/copy"
-	"github.com/hashicorp/terraform/plugin/discovery"
-	"github.com/hashicorp/terraform/state"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/statemgr"
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/backend/local"
+	"github.com/DeviaVir/terraform/configs"
+	"github.com/DeviaVir/terraform/helper/copy"
+	"github.com/DeviaVir/terraform/plugin/discovery"
+	"github.com/DeviaVir/terraform/state"
+	"github.com/DeviaVir/terraform/states"
+	"github.com/DeviaVir/terraform/states/statemgr"
+	"github.com/DeviaVir/terraform/terraform"
+	"github.com/DeviaVir/terraform/tfdiags"
 )
 
 func TestInit_empty(t *testing.T) {
@@ -131,7 +131,7 @@ func TestInit_fromModule_cwdDest(t *testing.T) {
 	}
 }
 
-// https://github.com/hashicorp/terraform/issues/518
+// https://github.com/DeviaVir/terraform/issues/518
 func TestInit_fromModule_dstInSrc(t *testing.T) {
 	dir := tempDir(t)
 	if err := os.MkdirAll(dir, 0755); err != nil {

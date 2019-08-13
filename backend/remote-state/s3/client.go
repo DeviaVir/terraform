@@ -17,8 +17,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/s3"
 	multierror "github.com/hashicorp/go-multierror"
 	uuid "github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/terraform/state"
-	"github.com/hashicorp/terraform/state/remote"
+	"github.com/DeviaVir/terraform/state"
+	"github.com/DeviaVir/terraform/state/remote"
 )
 
 // Store the last saved serial in dynamo with this suffix for consistency checks.

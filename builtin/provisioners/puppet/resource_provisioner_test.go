@@ -3,9 +3,9 @@ package puppet
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform/config"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/config"
+	"github.com/DeviaVir/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/terraform"
 )
 
 func TestResourceProvisioner_impl(t *testing.T) {

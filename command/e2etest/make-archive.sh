@@ -35,10 +35,10 @@ cp -r testdata "$OUTDIR/testdata"
 
 # Bundle a copy of our binary so the target system doesn't need the go
 # compiler installed.
-go build -o "$OUTDIR/terraform$GOEXE" github.com/hashicorp/terraform
+go build -o "$OUTDIR/terraform$GOEXE" github.com/DeviaVir/terraform
 
 # Build the test program
-go test -o "$OUTDIR/e2etest$GOEXE" -c -ldflags "-X github.com/hashicorp/terraform/command/e2etest.terraformBin=./terraform$GOEXE" github.com/hashicorp/terraform/command/e2etest
+go test -o "$OUTDIR/e2etest$GOEXE" -c -ldflags "-X github.com/DeviaVir/terraform/command/e2etest.terraformBin=./terraform$GOEXE" github.com/DeviaVir/terraform/command/e2etest
 
 # Now bundle it all together for easy shipping!
 cd "$OUTDIR"

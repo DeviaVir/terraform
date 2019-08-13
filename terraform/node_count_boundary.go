@@ -1,7 +1,7 @@
 package terraform
 
 import (
-	"github.com/hashicorp/terraform/configs"
+	"github.com/DeviaVir/terraform/configs"
 )
 
 // NodeCountBoundary fixes up any transitions between "each modes" in objects

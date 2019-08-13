@@ -8,11 +8,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/state"
-	"github.com/hashicorp/terraform/state/remote"
-	statespkg "github.com/hashicorp/terraform/states"
+	"github.com/DeviaVir/terraform/backend"
+	"github.com/DeviaVir/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/state"
+	"github.com/DeviaVir/terraform/state/remote"
+	statespkg "github.com/DeviaVir/terraform/states"
 )
 
 // we keep the states and locks in package-level variables, so that they can be

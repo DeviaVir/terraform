@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/state"
-	"github.com/hashicorp/terraform/state/remote"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/statemgr"
+	"github.com/DeviaVir/terraform/backend"
+	"github.com/DeviaVir/terraform/state"
+	"github.com/DeviaVir/terraform/state/remote"
+	"github.com/DeviaVir/terraform/states"
+	"github.com/DeviaVir/terraform/states/statemgr"
 )
 
 const (

@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"github.com/gophercloud/gophercloud/openstack/blockstorage/v2/snapshots"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/helper/schema"
 )
 
 func dataSourceBlockStorageSnapshotV2() *schema.Resource {

@@ -7,8 +7,8 @@ import (
 
 	"github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/attachinterfaces"
 
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/helper/resource"
+	"github.com/DeviaVir/terraform/helper/schema"
 )
 
 func resourceComputeInterfaceAttachV2() *schema.Resource {

@@ -10,11 +10,11 @@ import (
 	"time"
 
 	tfe "github.com/hashicorp/go-tfe"
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/internal/initwd"
-	"github.com/hashicorp/terraform/plans/planfile"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/backend"
+	"github.com/DeviaVir/terraform/internal/initwd"
+	"github.com/DeviaVir/terraform/plans/planfile"
+	"github.com/DeviaVir/terraform/terraform"
 	"github.com/mitchellh/cli"
 )
 

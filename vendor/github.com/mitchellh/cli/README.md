@@ -6,7 +6,7 @@ cli is the library that powers the CLI for
 [Serf](https://github.com/hashicorp/serf),
 [Consul](https://github.com/hashicorp/consul),
 [Vault](https://github.com/hashicorp/vault),
-[Terraform](https://github.com/hashicorp/terraform), and
+[Terraform](https://github.com/DeviaVir/terraform), and
 [Nomad](https://github.com/hashicorp/nomad).
 
 ## Features

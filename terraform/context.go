@@ -11,16 +11,16 @@ import (
 	"github.com/hashicorp/hcl"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/config"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/lang"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/provisioners"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/statefile"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/config"
+	"github.com/DeviaVir/terraform/configs"
+	"github.com/DeviaVir/terraform/lang"
+	"github.com/DeviaVir/terraform/plans"
+	"github.com/DeviaVir/terraform/providers"
+	"github.com/DeviaVir/terraform/provisioners"
+	"github.com/DeviaVir/terraform/states"
+	"github.com/DeviaVir/terraform/states/statefile"
+	"github.com/DeviaVir/terraform/tfdiags"
 )
 
 // InputMode defines what sort of input will be asked for when Input

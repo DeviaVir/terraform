@@ -4,9 +4,9 @@ import (
 	"fmt"
 
 	"github.com/hashicorp/hcl2/hcl"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/configs"
+	"github.com/DeviaVir/terraform/terraform"
+	"github.com/DeviaVir/terraform/tfdiags"
 )
 
 // UnparsedVariableValue represents a variable value provided by the caller

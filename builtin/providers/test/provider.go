@@ -1,8 +1,8 @@
 package test
 
 import (
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/terraform"
 )
 
 func Provider() terraform.ResourceProvider {

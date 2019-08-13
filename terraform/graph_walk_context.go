@@ -7,14 +7,14 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/dag"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/provisioners"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/configs/configschema"
+	"github.com/DeviaVir/terraform/dag"
+	"github.com/DeviaVir/terraform/plans"
+	"github.com/DeviaVir/terraform/providers"
+	"github.com/DeviaVir/terraform/provisioners"
+	"github.com/DeviaVir/terraform/states"
+	"github.com/DeviaVir/terraform/tfdiags"
 )
 
 // ContextGraphWalker is the GraphWalker implementation used with the

@@ -12,9 +12,9 @@ import (
 	"sync"
 
 	"github.com/hashicorp/go-plugin"
-	"github.com/hashicorp/terraform/command/format"
-	"github.com/hashicorp/terraform/helper/logging"
-	"github.com/hashicorp/terraform/svchost/disco"
+	"github.com/DeviaVir/terraform/command/format"
+	"github.com/DeviaVir/terraform/helper/logging"
+	"github.com/DeviaVir/terraform/svchost/disco"
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-shellwords"
 	"github.com/mitchellh/cli"
@@ -22,7 +22,7 @@ import (
 	"github.com/mitchellh/panicwrap"
 	"github.com/mitchellh/prefixedio"
 
-	backendInit "github.com/hashicorp/terraform/backend/init"
+	backendInit "github.com/DeviaVir/terraform/backend/init"
 )
 
 const (

@@ -3,7 +3,7 @@ package command
 import (
 	"strings"
 
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/tfdiags"
 )
 
 // GetCommand is a Command implementation that takes a Terraform

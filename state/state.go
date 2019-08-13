@@ -9,8 +9,8 @@ import (
 
 	uuid "github.com/hashicorp/go-uuid"
 
-	"github.com/hashicorp/terraform/states/statemgr"
-	"github.com/hashicorp/terraform/version"
+	"github.com/DeviaVir/terraform/states/statemgr"
+	"github.com/DeviaVir/terraform/version"
 )
 
 // State is a deprecated alias for statemgr.Full

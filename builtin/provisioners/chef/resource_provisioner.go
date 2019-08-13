@@ -16,10 +16,10 @@ import (
 	"sync"
 	"text/template"
 
-	"github.com/hashicorp/terraform/communicator"
-	"github.com/hashicorp/terraform/communicator/remote"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/communicator"
+	"github.com/DeviaVir/terraform/communicator/remote"
+	"github.com/DeviaVir/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/terraform"
 	"github.com/mitchellh/go-homedir"
 	"github.com/mitchellh/go-linereader"
 )

@@ -1,9 +1,9 @@
 package terraform
 
 import (
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/states"
+	"github.com/DeviaVir/terraform/plans"
+	"github.com/DeviaVir/terraform/providers"
+	"github.com/DeviaVir/terraform/states"
 )
 
 // NodePlannableResourceInstanceOrphan represents a resource that is "applyable":

@@ -1,12 +1,12 @@
 package terraform
 
 import (
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/dag"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/configs"
+	"github.com/DeviaVir/terraform/dag"
+	"github.com/DeviaVir/terraform/plans"
+	"github.com/DeviaVir/terraform/states"
+	"github.com/DeviaVir/terraform/tfdiags"
 )
 
 // ApplyGraphBuilder implements GraphBuilder and is responsible for building

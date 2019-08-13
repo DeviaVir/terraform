@@ -8,9 +8,9 @@ import (
 	"github.com/mitchellh/cli"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/helper/copy"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/configs/configschema"
+	"github.com/DeviaVir/terraform/helper/copy"
+	"github.com/DeviaVir/terraform/terraform"
 )
 
 func setupTest(fixturepath string, args ...string) (*cli.MockUi, int) {

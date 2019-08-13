@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/helper/resource"
+	"github.com/DeviaVir/terraform/terraform"
 )
 
 // This is actually a test of some core functionality in conjunction with

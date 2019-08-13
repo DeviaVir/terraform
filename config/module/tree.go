@@ -9,10 +9,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/tfdiags"
 
 	getter "github.com/hashicorp/go-getter"
-	"github.com/hashicorp/terraform/config"
+	"github.com/DeviaVir/terraform/config"
 )
 
 // RootName is the name of the root tree.

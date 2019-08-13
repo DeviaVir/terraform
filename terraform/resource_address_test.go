@@ -5,10 +5,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/hashicorp/terraform/addrs"
+	"github.com/DeviaVir/terraform/addrs"
 
-	"github.com/hashicorp/terraform/config"
-	"github.com/hashicorp/terraform/configs"
+	"github.com/DeviaVir/terraform/config"
+	"github.com/DeviaVir/terraform/configs"
 )
 
 func TestParseResourceAddressInternal(t *testing.T) {

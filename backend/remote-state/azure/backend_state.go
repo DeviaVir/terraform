@@ -7,10 +7,10 @@ import (
 	"strings"
 
 	"github.com/Azure/azure-sdk-for-go/storage"
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/state"
-	"github.com/hashicorp/terraform/state/remote"
-	"github.com/hashicorp/terraform/states"
+	"github.com/DeviaVir/terraform/backend"
+	"github.com/DeviaVir/terraform/state"
+	"github.com/DeviaVir/terraform/state/remote"
+	"github.com/DeviaVir/terraform/states"
 )
 
 const (

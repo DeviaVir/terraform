@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/helper/resource"
+	"github.com/DeviaVir/terraform/terraform"
 )
 
 // Tests GH-12183. This would previously cause a crash. More granular

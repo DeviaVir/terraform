@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/hashicorp/terraform/svchost"
+	"github.com/DeviaVir/terraform/svchost"
 )
 
 var (

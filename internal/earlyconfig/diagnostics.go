@@ -3,8 +3,8 @@ package earlyconfig
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-config-inspect/tfconfig"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform-config-inspect/tfconfig"
+	"github.com/DeviaVir/terraform/tfdiags"
 )
 
 func wrapDiagnostics(diags tfconfig.Diagnostics) tfdiags.Diagnostics {

@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/registry/regsrc"
-	"github.com/hashicorp/terraform/registry/test"
+	"github.com/DeviaVir/terraform/registry/regsrc"
+	"github.com/DeviaVir/terraform/registry/test"
 )
 
 func TestGetModule(t *testing.T) {

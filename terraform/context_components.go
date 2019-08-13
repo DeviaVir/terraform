@@ -3,8 +3,8 @@ package terraform
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/provisioners"
+	"github.com/DeviaVir/terraform/providers"
+	"github.com/DeviaVir/terraform/provisioners"
 )
 
 // contextComponentFactory is the interface that Context uses

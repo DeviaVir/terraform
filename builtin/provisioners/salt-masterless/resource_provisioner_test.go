@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/config"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/config"
+	"github.com/DeviaVir/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/terraform"
 )
 
 func testConfig(t *testing.T, c map[string]interface{}) *terraform.ResourceConfig {

@@ -16,18 +16,18 @@ import (
 	"github.com/hashicorp/errwrap"
 	"github.com/hashicorp/hcl2/hcl"
 	"github.com/hashicorp/hcl2/hcldec"
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/command/clistate"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/state"
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/backend"
+	"github.com/DeviaVir/terraform/command/clistate"
+	"github.com/DeviaVir/terraform/configs"
+	"github.com/DeviaVir/terraform/plans"
+	"github.com/DeviaVir/terraform/state"
+	"github.com/DeviaVir/terraform/terraform"
+	"github.com/DeviaVir/terraform/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	backendInit "github.com/hashicorp/terraform/backend/init"
-	backendLocal "github.com/hashicorp/terraform/backend/local"
+	backendInit "github.com/DeviaVir/terraform/backend/init"
+	backendLocal "github.com/DeviaVir/terraform/backend/local"
 )
 
 // BackendOpts are the options used to initialize a backend.Backend.

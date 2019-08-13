@@ -6,9 +6,9 @@ import (
 	"testing"
 
 	"github.com/Azure/azure-sdk-for-go/storage"
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/helper/acctest"
-	"github.com/hashicorp/terraform/state/remote"
+	"github.com/DeviaVir/terraform/backend"
+	"github.com/DeviaVir/terraform/helper/acctest"
+	"github.com/DeviaVir/terraform/state/remote"
 )
 
 func TestRemoteClient_impl(t *testing.T) {

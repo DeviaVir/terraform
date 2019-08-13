@@ -8,20 +8,20 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/helper/copy"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/state"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/statefile"
-	"github.com/hashicorp/terraform/states/statemgr"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/backend"
+	"github.com/DeviaVir/terraform/configs"
+	"github.com/DeviaVir/terraform/helper/copy"
+	"github.com/DeviaVir/terraform/plans"
+	"github.com/DeviaVir/terraform/state"
+	"github.com/DeviaVir/terraform/states"
+	"github.com/DeviaVir/terraform/states/statefile"
+	"github.com/DeviaVir/terraform/states/statemgr"
+	"github.com/DeviaVir/terraform/terraform"
 	"github.com/mitchellh/cli"
 	"github.com/zclconf/go-cty/cty"
 
-	backendInit "github.com/hashicorp/terraform/backend/init"
-	backendLocal "github.com/hashicorp/terraform/backend/local"
+	backendInit "github.com/DeviaVir/terraform/backend/init"
+	backendLocal "github.com/DeviaVir/terraform/backend/local"
 )
 
 // Test empty directory with no config/state creates a local state.

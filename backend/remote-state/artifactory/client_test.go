@@ -3,9 +3,9 @@ package artifactory
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/state/remote"
+	"github.com/DeviaVir/terraform/backend"
+	"github.com/DeviaVir/terraform/configs"
+	"github.com/DeviaVir/terraform/state/remote"
 	"github.com/zclconf/go-cty/cty"
 )
 

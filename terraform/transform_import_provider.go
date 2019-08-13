@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/hashicorp/hcl2/hcl"
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/tfdiags"
 )
 
 // ImportProviderValidateTransformer is a GraphTransformer that goes through

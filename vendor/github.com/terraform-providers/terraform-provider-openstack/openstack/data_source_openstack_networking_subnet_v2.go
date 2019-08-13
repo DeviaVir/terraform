@@ -5,7 +5,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/helper/schema"
 
 	"github.com/gophercloud/gophercloud/openstack/networking/v2/subnets"
 )

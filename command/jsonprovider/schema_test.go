@@ -5,7 +5,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/hashicorp/terraform/configs/configschema"
+	"github.com/DeviaVir/terraform/configs/configschema"
 )
 
 func TestMarshalSchemas(t *testing.T) {

@@ -5,12 +5,12 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/configs"
+	"github.com/DeviaVir/terraform/plans"
+	"github.com/DeviaVir/terraform/providers"
+	"github.com/DeviaVir/terraform/states"
+	"github.com/DeviaVir/terraform/tfdiags"
 )
 
 // NodeApplyableResourceInstance represents a resource instance that is
@@ -104,7 +104,7 @@ func (n *NodeApplyableResourceInstance) EvalTree() EvalNode {
 	if n.Config == nil {
 		// This should not be possible, but we've got here in at least one
 		// case as discussed in the following issue:
-		//    https://github.com/hashicorp/terraform/issues/21258
+		//    https://github.com/DeviaVir/terraform/issues/21258
 		// To avoid an outright crash here, we'll instead return an explicit
 		// error.
 		var diags tfdiags.Diagnostics

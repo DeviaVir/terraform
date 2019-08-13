@@ -1,9 +1,9 @@
 package terraform
 
 import (
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/dag"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/dag"
+	"github.com/DeviaVir/terraform/tfdiags"
 )
 
 // GraphWalker is an interface that can be implemented that when used

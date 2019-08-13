@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/dag"
+	"github.com/DeviaVir/terraform/dag"
 	"github.com/mitchellh/cli"
 )
 

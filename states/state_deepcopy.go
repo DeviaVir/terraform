@@ -1,7 +1,7 @@
 package states
 
 import (
-	"github.com/hashicorp/terraform/addrs"
+	"github.com/DeviaVir/terraform/addrs"
 	"github.com/zclconf/go-cty/cty"
 )
 

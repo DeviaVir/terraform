@@ -13,11 +13,11 @@ import (
 	hcl1token "github.com/hashicorp/hcl/hcl/token"
 	hcl2 "github.com/hashicorp/hcl2/hcl"
 	hcl2syntax "github.com/hashicorp/hcl2/hcl/hclsyntax"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/lang/blocktoattr"
-	"github.com/hashicorp/terraform/registry/regsrc"
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/configs/configschema"
+	"github.com/DeviaVir/terraform/lang/blocktoattr"
+	"github.com/DeviaVir/terraform/registry/regsrc"
+	"github.com/DeviaVir/terraform/terraform"
+	"github.com/DeviaVir/terraform/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 

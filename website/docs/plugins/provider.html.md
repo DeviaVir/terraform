@@ -54,7 +54,7 @@ For example, to download both Terraform and the `template` provider into
 `GOPATH`:
 
 ```
-$ go get github.com/hashicorp/terraform
+$ go get github.com/DeviaVir/terraform
 $ go get github.com/terraform-providers/terraform-provider-template
 ```
 
@@ -62,7 +62,7 @@ These two packages are both "main" packages that can be built into separate
 executables with `go install`:
 
 ```
-$ go install github.com/hashicorp/terraform
+$ go install github.com/DeviaVir/terraform
 $ go install github.com/terraform-providers/terraform-provider-template
 ```
 
@@ -83,7 +83,7 @@ after the provider. For more information, see
 When making changes only to files within the provider repository, it is _not_
 necessary to re-build the main Terraform executable. Note that some packages
 from the Terraform repository are used as library dependencies by providers,
-such as `github.com/hashicorp/terraform/helper/schema`; it is recommended to
+such as `github.com/DeviaVir/terraform/helper/schema`; it is recommended to
 use `govendor` to create a local vendor copy of the relevant packages in the
 provider repository, as can be seen in the repositories within the
 `terraform-providers` GitHub organization.
@@ -91,7 +91,7 @@ provider repository, as can be seen in the repositories within the
 ## Low-Level Interface
 
 The interface you must implement for providers is
-[ResourceProvider](https://github.com/hashicorp/terraform/blob/master/terraform/resource_provider.go).
+[ResourceProvider](https://github.com/DeviaVir/terraform/blob/master/terraform/resource_provider.go).
 
 This interface is extremely low level, however, and we don't recommend
 you implement it directly. Implementing the interface directly is error
@@ -114,14 +114,14 @@ the framework beforehand, but it goes to show how expressive the framework
 can be.
 
 The GoDoc for `helper/schema` can be
-[found here](https://godoc.org/github.com/hashicorp/terraform/helper/schema).
+[found here](https://godoc.org/github.com/DeviaVir/terraform/helper/schema).
 This is API-level documentation but will be extremely important
 for you going forward.
 
 ## Provider
 
 The first thing to do in your plugin is to create the
-[schema.Provider](https://godoc.org/github.com/hashicorp/terraform/helper/schema#Provider) structure.
+[schema.Provider](https://godoc.org/github.com/DeviaVir/terraform/helper/schema#Provider) structure.
 This structure implements the `ResourceProvider` interface. We
 recommend creating this structure in a function to make testing easier
 later. Example:
@@ -142,7 +142,7 @@ are documented within the godoc, but a brief overview is here as well:
 
   * `ResourcesMap` - The map of resources that this provider supports.
       All keys are resource names and the values are the
-      [schema.Resource](https://godoc.org/github.com/hashicorp/terraform/helper/schema#Resource) structures implementing this resource.
+      [schema.Resource](https://godoc.org/github.com/DeviaVir/terraform/helper/schema#Resource) structures implementing this resource.
 
   * `ConfigureFunc` - This function callback is used to configure the
       provider. This function should do things such as initialize any API
@@ -183,7 +183,7 @@ func resourceComputeAddress() *schema.Resource {
 ```
 
 Resources are described using the
-[schema.Resource](https://godoc.org/github.com/hashicorp/terraform/helper/schema#Resource)
+[schema.Resource](https://godoc.org/github.com/DeviaVir/terraform/helper/schema#Resource)
 structure. This structure has the following fields:
 
   * `Schema` - The configuration schema for this resource. Schemas are
@@ -253,7 +253,7 @@ best practices. A good starting place is the
 
 The parameter to provider configuration as well as all the CRUD operations
 on a resource is a
-[schema.ResourceData](https://godoc.org/github.com/hashicorp/terraform/helper/schema#ResourceData).
+[schema.ResourceData](https://godoc.org/github.com/DeviaVir/terraform/helper/schema#ResourceData).
 This structure is used to query configurations as well as to set information
 about the resource such as its ID, connection information, and computed
 attributes.

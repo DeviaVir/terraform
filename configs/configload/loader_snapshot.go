@@ -10,8 +10,8 @@ import (
 
 	version "github.com/hashicorp/go-version"
 	"github.com/hashicorp/hcl2/hcl"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/internal/modsdir"
+	"github.com/DeviaVir/terraform/configs"
+	"github.com/DeviaVir/terraform/internal/modsdir"
 	"github.com/spf13/afero"
 )
 

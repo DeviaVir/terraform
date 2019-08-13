@@ -4,11 +4,11 @@ import (
 	"bufio"
 	"strings"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/helper/wrappedstreams"
-	"github.com/hashicorp/terraform/repl"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/backend"
+	"github.com/DeviaVir/terraform/helper/wrappedstreams"
+	"github.com/DeviaVir/terraform/repl"
+	"github.com/DeviaVir/terraform/tfdiags"
 
 	"github.com/mitchellh/cli"
 )

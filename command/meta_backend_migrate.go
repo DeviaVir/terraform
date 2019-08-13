@@ -11,12 +11,12 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/command/clistate"
-	"github.com/hashicorp/terraform/state"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/statemgr"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/backend"
+	"github.com/DeviaVir/terraform/command/clistate"
+	"github.com/DeviaVir/terraform/state"
+	"github.com/DeviaVir/terraform/states"
+	"github.com/DeviaVir/terraform/states/statemgr"
+	"github.com/DeviaVir/terraform/terraform"
 )
 
 type backendMigrateOpts struct {

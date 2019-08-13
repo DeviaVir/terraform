@@ -6,12 +6,12 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
-	"github.com/hashicorp/terraform/states/statefile"
+	"github.com/DeviaVir/terraform/states/statefile"
 
-	"github.com/hashicorp/terraform/addrs"
+	"github.com/DeviaVir/terraform/addrs"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/states"
+	"github.com/DeviaVir/terraform/states"
 )
 
 // TestFull is a helper for testing full state manager implementations. It

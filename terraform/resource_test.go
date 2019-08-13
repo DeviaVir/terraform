@@ -6,13 +6,13 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/hashicorp/terraform/configs/configschema"
+	"github.com/DeviaVir/terraform/configs/configschema"
 	"github.com/zclconf/go-cty/cty"
 
 	"github.com/hashicorp/hil"
 	"github.com/hashicorp/hil/ast"
-	"github.com/hashicorp/terraform/config"
-	"github.com/hashicorp/terraform/config/hcl2shim"
+	"github.com/DeviaVir/terraform/config"
+	"github.com/DeviaVir/terraform/config/hcl2shim"
 	"github.com/mitchellh/reflectwalk"
 )
 

@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/terraform/communicator/remote"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/communicator/remote"
+	"github.com/DeviaVir/terraform/terraform"
 	"golang.org/x/crypto/ssh"
 )
 

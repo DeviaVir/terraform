@@ -8,8 +8,8 @@ import (
 
 	"github.com/aliyun/aliyun-oss-go-sdk/oss"
 	"github.com/aliyun/aliyun-tablestore-go-sdk/tablestore"
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/config/hcl2shim"
+	"github.com/DeviaVir/terraform/backend"
+	"github.com/DeviaVir/terraform/config/hcl2shim"
 	"strings"
 )
 

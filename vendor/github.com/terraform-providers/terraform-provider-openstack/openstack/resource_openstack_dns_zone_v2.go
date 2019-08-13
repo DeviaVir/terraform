@@ -7,9 +7,9 @@ import (
 
 	"github.com/gophercloud/gophercloud/openstack/dns/v2/zones"
 
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/helper/validation"
+	"github.com/DeviaVir/terraform/helper/resource"
+	"github.com/DeviaVir/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/helper/validation"
 )
 
 func resourceDNSZoneV2() *schema.Resource {

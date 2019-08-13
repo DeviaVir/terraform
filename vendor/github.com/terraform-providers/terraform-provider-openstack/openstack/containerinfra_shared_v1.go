@@ -9,8 +9,8 @@ import (
 	"github.com/gophercloud/gophercloud/openstack/containerinfra/v1/clusters"
 	"github.com/gophercloud/gophercloud/openstack/containerinfra/v1/clustertemplates"
 
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/helper/resource"
+	"github.com/DeviaVir/terraform/helper/schema"
 )
 
 func expandContainerInfraV1LabelsMap(v map[string]interface{}) (map[string]string, error) {

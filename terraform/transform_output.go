@@ -3,8 +3,8 @@ package terraform
 import (
 	"log"
 
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/dag"
+	"github.com/DeviaVir/terraform/configs"
+	"github.com/DeviaVir/terraform/dag"
 )
 
 // OutputTransformer is a GraphTransformer that adds all the outputs

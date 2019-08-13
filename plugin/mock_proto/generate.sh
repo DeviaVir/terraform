@@ -4,4 +4,4 @@
 export GOFLAGS=""
 export GO111MODULE=on
 
-mockgen -destination mock.go github.com/hashicorp/terraform/internal/tfplugin5 ProviderClient,ProvisionerClient,Provisioner_ProvisionResourceClient,Provisioner_ProvisionResourceServer
+mockgen -destination mock.go github.com/DeviaVir/terraform/internal/tfplugin5 ProviderClient,ProvisionerClient,Provisioner_ProvisionResourceClient,Provisioner_ProvisionResourceServer

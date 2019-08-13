@@ -3,8 +3,8 @@ package state
 import (
 	"sync"
 
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/statemgr"
+	"github.com/DeviaVir/terraform/states"
+	"github.com/DeviaVir/terraform/states/statemgr"
 )
 
 // BackupState wraps a State that backs up the state on the first time that

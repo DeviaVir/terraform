@@ -3,8 +3,8 @@ package state
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/statemgr"
+	"github.com/DeviaVir/terraform/states"
+	"github.com/DeviaVir/terraform/states/statemgr"
 )
 
 // TestState is a helper for testing state implementations. It is expected

@@ -11,10 +11,10 @@ import (
 
 	"github.com/Unknwon/com"
 	"github.com/gophercloud/gophercloud"
-	"github.com/hashicorp/terraform/flatmap"
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/flatmap"
+	"github.com/DeviaVir/terraform/helper/resource"
+	"github.com/DeviaVir/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/terraform"
 )
 
 // BuildRequest takes an opts struct and builds a request body for

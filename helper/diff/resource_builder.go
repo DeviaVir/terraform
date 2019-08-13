@@ -3,9 +3,9 @@ package diff
 import (
 	"strings"
 
-	"github.com/hashicorp/terraform/config/hcl2shim"
-	"github.com/hashicorp/terraform/flatmap"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/config/hcl2shim"
+	"github.com/DeviaVir/terraform/flatmap"
+	"github.com/DeviaVir/terraform/terraform"
 )
 
 // AttrType is an enum that tells the ResourceBuilder what type of attribute

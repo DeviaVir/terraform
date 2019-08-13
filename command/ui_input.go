@@ -15,7 +15,7 @@ import (
 	"sync/atomic"
 	"unicode"
 
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/terraform"
 	"github.com/mitchellh/colorstring"
 )
 

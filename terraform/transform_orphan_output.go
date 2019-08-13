@@ -3,9 +3,9 @@ package terraform
 import (
 	"log"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/states"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/configs"
+	"github.com/DeviaVir/terraform/states"
 )
 
 // OrphanOutputTransformer finds the outputs that aren't present

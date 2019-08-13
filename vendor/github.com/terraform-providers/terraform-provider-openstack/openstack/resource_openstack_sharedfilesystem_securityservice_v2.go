@@ -5,8 +5,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/helper/validation"
+	"github.com/DeviaVir/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/helper/validation"
 
 	"github.com/gophercloud/gophercloud/openstack/sharedfilesystems/v2/securityservices"
 )

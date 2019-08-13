@@ -8,9 +8,9 @@ import (
 	"github.com/gophercloud/gophercloud/openstack/blockstorage/extensions/volumeactions"
 	"github.com/gophercloud/gophercloud/openstack/blockstorage/v2/volumes"
 
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/helper/validation"
+	"github.com/DeviaVir/terraform/helper/resource"
+	"github.com/DeviaVir/terraform/helper/schema"
+	"github.com/DeviaVir/terraform/helper/validation"
 )
 
 func resourceBlockStorageVolumeAttachV2() *schema.Resource {

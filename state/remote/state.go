@@ -6,10 +6,10 @@ import (
 	"sync"
 
 	uuid "github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/terraform/state"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/statefile"
-	"github.com/hashicorp/terraform/states/statemgr"
+	"github.com/DeviaVir/terraform/state"
+	"github.com/DeviaVir/terraform/states"
+	"github.com/DeviaVir/terraform/states/statefile"
+	"github.com/DeviaVir/terraform/states/statemgr"
 )
 
 // State implements the State interfaces in the state package to handle

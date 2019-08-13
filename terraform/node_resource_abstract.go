@@ -5,13 +5,13 @@ import (
 	"log"
 	"sort"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/dag"
-	"github.com/hashicorp/terraform/lang"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/configs"
+	"github.com/DeviaVir/terraform/configs/configschema"
+	"github.com/DeviaVir/terraform/dag"
+	"github.com/DeviaVir/terraform/lang"
+	"github.com/DeviaVir/terraform/states"
+	"github.com/DeviaVir/terraform/tfdiags"
 )
 
 // ConcreteResourceNodeFunc is a callback type used to convert an
@@ -245,7 +245,7 @@ func (n *NodeAbstractResourceInstance) References() []*addrs.Reference {
 			// difficult to reproduce, so we will fix the symptom here and hope
 			// to find the root cause another time.
 			//
-			// https://github.com/hashicorp/terraform/issues/21407
+			// https://github.com/DeviaVir/terraform/issues/21407
 			if s.Current == nil {
 				log.Printf("[WARN] no current state found for %s", n.Name())
 			} else {

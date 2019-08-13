@@ -1,8 +1,8 @@
 package terraform
 
 import (
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/dag"
+	"github.com/DeviaVir/terraform/configs"
+	"github.com/DeviaVir/terraform/dag"
 )
 
 // CountBoundaryTransformer adds a node that depends on everything else

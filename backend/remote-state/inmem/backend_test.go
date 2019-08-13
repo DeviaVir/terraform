@@ -9,10 +9,10 @@ import (
 
 	"github.com/hashicorp/hcl2/hcl"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/helper/logging"
-	"github.com/hashicorp/terraform/state/remote"
-	statespkg "github.com/hashicorp/terraform/states"
+	"github.com/DeviaVir/terraform/backend"
+	"github.com/DeviaVir/terraform/helper/logging"
+	"github.com/DeviaVir/terraform/state/remote"
+	statespkg "github.com/DeviaVir/terraform/states"
 )
 
 func TestMain(m *testing.M) {

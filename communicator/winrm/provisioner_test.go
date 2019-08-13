@@ -3,7 +3,7 @@ package winrm
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/DeviaVir/terraform/terraform"
 )
 
 func TestProvisioner_defaultHTTPSPort(t *testing.T) {

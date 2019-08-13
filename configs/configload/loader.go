@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/registry"
-	"github.com/hashicorp/terraform/svchost/disco"
+	"github.com/DeviaVir/terraform/configs"
+	"github.com/DeviaVir/terraform/registry"
+	"github.com/DeviaVir/terraform/svchost/disco"
 	"github.com/spf13/afero"
 )
 

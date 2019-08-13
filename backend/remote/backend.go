@@ -14,20 +14,20 @@ import (
 
 	tfe "github.com/hashicorp/go-tfe"
 	version "github.com/hashicorp/go-version"
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/state"
-	"github.com/hashicorp/terraform/state/remote"
-	"github.com/hashicorp/terraform/svchost"
-	"github.com/hashicorp/terraform/svchost/disco"
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
-	tfversion "github.com/hashicorp/terraform/version"
+	"github.com/DeviaVir/terraform/backend"
+	"github.com/DeviaVir/terraform/configs/configschema"
+	"github.com/DeviaVir/terraform/state"
+	"github.com/DeviaVir/terraform/state/remote"
+	"github.com/DeviaVir/terraform/svchost"
+	"github.com/DeviaVir/terraform/svchost/disco"
+	"github.com/DeviaVir/terraform/terraform"
+	"github.com/DeviaVir/terraform/tfdiags"
+	tfversion "github.com/DeviaVir/terraform/version"
 	"github.com/mitchellh/cli"
 	"github.com/mitchellh/colorstring"
 	"github.com/zclconf/go-cty/cty"
 
-	backendLocal "github.com/hashicorp/terraform/backend/local"
+	backendLocal "github.com/DeviaVir/terraform/backend/local"
 )
 
 const (

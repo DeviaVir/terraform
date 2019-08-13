@@ -9,7 +9,7 @@ import (
 	"time"
 
 	etcdv3 "github.com/coreos/etcd/clientv3"
-	"github.com/hashicorp/terraform/backend"
+	"github.com/DeviaVir/terraform/backend"
 )
 
 var (

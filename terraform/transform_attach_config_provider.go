@@ -1,8 +1,8 @@
 package terraform
 
 import (
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs"
+	"github.com/DeviaVir/terraform/addrs"
+	"github.com/DeviaVir/terraform/configs"
 )
 
 // GraphNodeAttachProvider is an interface that must be implemented by nodes

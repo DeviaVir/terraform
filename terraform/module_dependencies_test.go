@@ -5,9 +5,9 @@ import (
 
 	"github.com/go-test/deep"
 
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/moduledeps"
-	"github.com/hashicorp/terraform/plugin/discovery"
+	"github.com/DeviaVir/terraform/configs"
+	"github.com/DeviaVir/terraform/moduledeps"
+	"github.com/DeviaVir/terraform/plugin/discovery"
 )
 
 func TestModuleTreeDependencies(t *testing.T) {

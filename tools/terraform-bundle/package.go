@@ -14,7 +14,7 @@ import (
 	"io"
 
 	getter "github.com/hashicorp/go-getter"
-	discovery "github.com/hashicorp/terraform/plugin/discovery"
+	discovery "github.com/DeviaVir/terraform/plugin/discovery"
 	"github.com/mitchellh/cli"
 )
 

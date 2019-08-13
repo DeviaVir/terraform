@@ -41,13 +41,13 @@ This repository contains only Terraform core, which includes the command line in
 For local development of Terraform core, first make sure Go is properly installed and that a
 [GOPATH](http://golang.org/doc/code.html#GOPATH) has been set. You will also need to add `$GOPATH/bin` to your `$PATH`.
 
-Next, using [Git](https://git-scm.com/), clone this repository into `$GOPATH/src/github.com/hashicorp/terraform`.
+Next, using [Git](https://git-scm.com/), clone this repository into `$GOPATH/src/github.com/DeviaVir/terraform`.
 
 You'll need to run `make tools` to install some required tools, then `make`.  This will compile the code and then run the tests. If this exits with exit status 0, then everything is working!
 You only need to run `make tools` once (or when the tools change).
 
 ```sh
-$ cd "$GOPATH/src/github.com/hashicorp/terraform"
+$ cd "$GOPATH/src/github.com/DeviaVir/terraform"
 $ make tools
 $ make
 ```
@@ -112,7 +112,7 @@ To update a dependency:
 
 Terraform has a comprehensive [acceptance
 test](http://en.wikipedia.org/wiki/Acceptance_testing) suite covering the
-built-in providers. Our [Contributing Guide](https://github.com/hashicorp/terraform/blob/master/.github/CONTRIBUTING.md) includes details about how and when to write and run acceptance tests in order to help contributions get accepted quickly.
+built-in providers. Our [Contributing Guide](https://github.com/DeviaVir/terraform/blob/master/.github/CONTRIBUTING.md) includes details about how and when to write and run acceptance tests in order to help contributions get accepted quickly.
 
 
 ### Cross Compilation and Building for Distribution
@@ -160,7 +160,7 @@ When using docker you don't need to have any of the Go development tools install
 For example, run the following command to build terraform in a linux-based container for macOS.
 
 ```sh
-docker run --rm -v $(pwd):/go/src/github.com/hashicorp/terraform -w /go/src/github.com/hashicorp/terraform -e XC_OS=darwin -e XC_ARCH=amd64 golang:latest bash -c "apt-get update && apt-get install -y zip && make bin"
+docker run --rm -v $(pwd):/go/src/github.com/DeviaVir/terraform -w /go/src/github.com/DeviaVir/terraform -e XC_OS=darwin -e XC_ARCH=amd64 golang:latest bash -c "apt-get update && apt-get install -y zip && make bin"
 ```
 
 
